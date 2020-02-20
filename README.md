@@ -1,4 +1,4 @@
-# Servicios REST ecurul - Spring Boot
+# Servicios REST - Spring Boot
 
 This project was generated with Spring Boot version 2.2.4.
 
