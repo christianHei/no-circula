@@ -14,7 +14,7 @@ Run `NoCirculaApplication.java`. Then restore ddl-auto: none
 
 Run `NoCirculaApplication.java` for a dev server. Navigate to `http://localhost:3334/`.
 
-## Service Vehículo
+## Vehículo service
 http://localhost:3334/vehiculo
 
 If you want to get the entire list of vehicles, example:
