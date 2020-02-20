@@ -1,0 +1,32 @@
+
+spring:
+  application:
+    name: no-circula
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate.physical_naming_strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/no-circula
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+
+# HTTP Server
+server:
+  port: 3334
+# HTTP (Tomcat) port
+
+#logging:
+  #level: info
+    #Basic Security by Method
+    #security:
+    #user:
+    #name: user
+  #password: pass
