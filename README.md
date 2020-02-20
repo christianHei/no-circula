@@ -6,9 +6,9 @@ Small example of a CRUD to save, modify, delete data in a database table that sa
 
 ## DataBase PostgreSQL version 12
 Download the project and modify the file application.yml
-Change ddl-auto: none to ddl-auto create to generate to database.
+Change ddl-auto: none to ddl-auto: create to generate to database.
 
-Run `NoCirculaApplication.java` the restore ddl-auto: none
+Run `NoCirculaApplication.java`. Then restore ddl-auto: none
 
 ## Development server Spring Boot
 
